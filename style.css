@@ -1,0 +1,44 @@
+    /* CSS styles for the calendar */
+    .calendar {
+      font-family: Arial, sans-serif;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .month {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .weekdays {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f0f0f0;
+      padding: 5px;
+      font-weight: bold;
+    }
+    .weekdays div {
+      width: 14.28%;
+      text-align: center;
+    }
+    .days {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .days div {
+      width: 14.28%;
+      padding: 5px;
+      text-align: center;
+      display: inline;
+    }
+    .event {
+      margin: 5px;
+      background-color: #f0f0f0;
+      padding: 3px;
+      font-size: 12px;
+    }
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
